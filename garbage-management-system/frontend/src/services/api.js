@@ -1,8 +1,8 @@
 // api.js - Axios instance with base URL and JWT token injection
 import axios from 'axios';
 
-const api = axios.create({
-  baseURL: 'http://localhost:8081/api',
+ const api = axios.create({
+  baseURL: 'https://garbage-management-backend-production.up.railway.app/api',
   headers: { 'Content-Type': 'application/json' },
 });
 
